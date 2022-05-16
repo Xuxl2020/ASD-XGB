@@ -45,8 +45,7 @@ learning_rate = 0.0001,
 n_estimators = 1,
 silent = True,
 eval_metric = 'error',
- objective = 'binary:logistic',
-gamma = 0.2,
+objective = 'binary:logistic',
 subsample = 1,
 colsample_bytree = 1)  
 
@@ -87,13 +86,12 @@ x_train = train[col[1:]]
 y_train = train['diag']
 
 xlf = XGBClassifier(
-max_depth = 1,
 learning_rate = 0.0001,
+max_depth = 1,
 n_estimators = 1,
 silent = True,
 eval_metric = 'error',
- objective = 'binary:logistic',
-gamma = 0.2,
+objective = 'binary:logistic',
 subsample = 1,
 colsample_bytree = 1)  
 
