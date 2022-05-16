@@ -48,7 +48,6 @@ n_estimators = 5000,
 silent = True,
 eval_metric = 'merror',
 objective = 'multi:softprob',
-gamma = 0.2,
 subsample = 0.9,
 colsample_bytree = 0.9,
 num_class = 3)  
